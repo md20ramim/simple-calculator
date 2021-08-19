@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("science-background-1.png");
+    background-size: cover;
+    background-position: center;
+}
+.calculator{
+    border-radius: 2%;
+    width: 35%;
+    padding: 2%;
+    background-color: slategray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#btn-del{
+    width: 47%;
+}
+.main-bar{
+    height:70px;
+    text-align: end;
+    font-size: 30px;
+}
+.btn{
+    width: 20%;
+}
+@media only screen and (max-width: 768px){
+    .calculator{
+        border-radius: 2%;
+        width: 55%;
+        padding: 2%;
+        background-color: slategray;
+    }
+}
+@media only screen and (max-width: 350px){
+    .btn{
+        font-size: 10px;
+    }
+}
